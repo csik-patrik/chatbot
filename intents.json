@@ -1,0 +1,99 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hello",
+            "hey",
+            "Good day!",
+            "greetings"
+        ],
+        "responses": [
+            "Hello!",
+            "Nice to see you!",
+            "Hi! What can I do for you?",
+            "Good day!"
+            ]
+        },
+
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "cya", 
+            "bye", 
+            "leaving", 
+            "see you soon"
+        ],
+        "responses": [
+            "Talk to me later!", 
+            "See you soon!", 
+            "Good bye!", 
+            "Don't leave me alone :("
+        ]
+    },
+
+    {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like today?",
+          "How's the weather?",
+          "Will it rain today?"
+        ],
+        "responses": [
+          "It's sunny/cloudy/raining today.",
+          "The temperature is X degrees.",
+          "There's a chance of rain in the evening."
+        ]
+      },
+      {
+        "tag": "news",
+        "patterns": [
+          "What's the latest news?",
+          "What's happening in the world?",
+          "Any interesting news?"
+        ],
+        "responses": [
+          "There was a major earthquake in X.",
+          "The government announced a new policy.",
+          "The stock market is doing well/badly."
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What's the score of the game?",
+          "Who won the match?",
+          "Which team is playing today?"
+        ],
+        "responses": [
+          "The score is X-Y in favor of Team A.",
+          "Team B won the match.",
+          "The match is between Team C and Team D."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "Can you play some music?",
+          "What's your favorite song?",
+          "Who's your favorite artist?"
+        ],
+        "responses": [
+          "Playing X song by Y artist.",
+          "My favorite song is X.",
+          "I like listening to Y artist."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know any good jokes?",
+          "Make me laugh"
+        ],
+        "responses": [
+          "Why did the chicken cross the road? To get to the other side!",
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          "Why don't scientists trust atoms? Because they make up everything!"
+        ]
+      }
+]}
